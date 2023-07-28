@@ -1,0 +1,39 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: gray;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container > div{
+    width: 25vw;
+    height: 50vh;
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid black;
+}
+
+h3{
+    text-align: center;
+    margin: 20px ;
+    font-size: 24px;
+}
+h1{
+    text-align: center;
+}
+
+.plano{
+    font-size: 20px;
+    background-color: aqua;
+}
+
+.gradiente{
+    font-size: 20px;
+    background: linear-gradient(to right, red, blue);
+}
+
+.imagen{
+    font-size: 20px;
+    background-image: url(/assets/ima/IMG_0957.jpg);
+}

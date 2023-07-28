@@ -1,0 +1,62 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 33% 33% auto;
+    gap: 50px;
+    background-color: gray;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+h1{
+    text-align: center;
+}
+.grid-container > div{
+    background-color: antiquewhite;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+.caja{
+    width: 100px;
+    height: 100px;
+}
+
+.Dotted {
+    border: 5px Dotted black;
+
+}
+.Solid {
+    border: 5px Solid black;
+
+
+}
+.Dashed {
+    border: 5px Dashed black;
+
+
+}
+.Groove {
+    border: 5px Groove black;
+
+
+}
+.Ridge {
+    border: 5px ridge black;
+
+
+}
+.Inset {
+    border: 5px inset black;
+
+
+}
+.Double {
+    border: 5px  Double black;
+
+
+}
+.Outset {
+    border: 5px Outset black;
+
+
+}
