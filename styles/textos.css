@@ -1,39 +1,104 @@
+img{
+    opacity: 0.8;
+    z-index: -1;
+}
+
+
 .grid-container{
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    background-color: gray;
+    grid-template-columns: auto auto;
+    background: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12, 0.5)), url(/assets/ima/Captura.JPG) no-repeat center center ;
     padding: 15px;
+    margin: 5px;
     justify-content: space-evenly;
+    min-height: 65vh;
+    border-radius: 20px;
+    background-size: cover;
+    
 }
+
+
 h1{
     text-align: center;
 }
 .grid-container > div{
-    margin: 15px;
-    background-color: white;
-    padding: 15px;
+    width: 45vw;
+    height: 60vh;
+    margin: 1px; 
+    padding: 0;
+    border-radius: 20px;
+    border: 2px solid beige;
+    overflow: hidden;
+    
+}
+.contacto ul li{
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-decoration: underline;
+    text-align: left;
+    /* background: linear-gradient(rgb(245, 245, 245, 0.75), rgb(245, 245, 245, 0.75)); */
+}
+
+.grid-container > div:hover{
+    background: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12, 0.5));
+
+}
+.contacto{
+    color: #dab38e;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serifS;
+
 }
 
 
-.left{
-    text-align: left ;
-}
-.right{
-    text-align: right;
-}
-.center{
-    text-align: center;
-}
-.justify{
-    text-align: justify;
+
+h1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serifS;
+    text-decoration:underline;
+    color: #dab38e;
+    text-shadow: 2px 2px 5px #68421e;
+    
 }
 
-.grid-container > div > h4{
-    text-align: center;
+.mail{
+    background-color: rgb(180, 180, 175);
+    font-size: 16px;
+    border: 2px solid #68421e;
+    border-radius: 10px;
+    padding: 9px;
+
+}
+.mail a{
+    color: #4b2c0f;
 }
 
-h3{
-    text-align: center;
-    font-size: 24px;
-    padding: 10px 0 0 0;
+a{
+    color: #dab38e;
+    text-shadow: 2px 2px 5px #68421e;
+}
+.mail i{
+    color: #68421e;
+}
+
+@media (max-width:800px) {
+    .grid-container{
+        margin-top: 60px;
+        grid-template-columns: auto;
+    }
+    .grid-container > div{
+        width: 100%;
+    }
+    .contacto ul li{
+        border-radius: 20px;
+        width: 30vh;
+        font-size: 16px;
+        margin-bottom: 9px;
+        padding: 8px;
+        text-decoration: underline;
+        text-align: left;
+        left: 50px;
+
+    }
 }
