@@ -113,6 +113,9 @@ i{
     #check:checked ~ ul{
         left:0;
     }
+    #check:checked ~ video{
+        display: none;
+    }
 
 }
 
