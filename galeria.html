@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="/styles/fondos.css">
     <script src="https://kit.fontawesome.com/64d523dbaa.js" crossorigin="anonymous"></script>
-    <title>2do proyecto</title>
+    <script src="main.js" defer></script>
+    <title>Galeria de Fotos</title>
 </head>
-<body>
+<body>        
     <div class="cartel"></div>
     <div class="navbar">
         <nav class="navb">
@@ -27,15 +28,59 @@
             </ul>
         <nav>
     </div>
-    <div class="textos">
-        <h1>Fondos</h1>
+    <div class="intro">
+        <div class="overlay">
+            <div class="slideshow">
+                <span class="btn_cerrar">&times;</span>
+                <div class="btnAtras">
+                    <i class="fa-solid fa-left-long"></i>
+                </div>
+                <div class="btnAdel">
+                    <i class="fa-solid fa-right-long"></i>
+                </div>
+                <img src="" alt="" id="img_slideshow">
+            </div>
+        </div>
+        <section class="container">
+            <div class="gallery_item">
+                <img src="/assets/ima/galeria1 (2).jpg" alt="" class="gallery__img materialboxed" data-img-mostrar="0">
+                <h2 class="gallery__title">Imagen 2</h2>
+            </div> 
+            <div class="gallery_item">
+                <img src="/assets/ima/galeria1 (3).jpg" alt="" class="gallery__img materialboxed" data-img-mostrar="1">
+                <h2 class="gallery__title">Imagen 3</h2>
+            </div> 
+            <div class="gallery_item">
+                <img src="/assets/ima/galeria1 (4).jpg" alt="" class="gallery__img materialboxed" data-img-mostrar="2">
+                <h2 class="gallery__title">Imagen 4</h2>
+            </div> 
+            <div class="gallery_item">
+                <img src="/assets/ima/galeria1 (5).jpg" alt="" class="gallery__img materialboxed" data-img-mostrar="3">
+                <h2 class="gallery__title">Imagen 5</h2>
+            </div> 
+            <div class="gallery_item">
+                <img src="/assets/ima/galeria1 (6).jpg" alt="" class="gallery__img materialboxed" data-img-mostrar="4">
+                <h2 class="gallery__title">Imagen 6</h2>
+            </div> 
+            <div class="gallery_item">
+                <img src="/assets/ima/galeria1 (7).jpg" alt="" class="gallery__img materialboxed" data-img-mostrar="5">
+                <h2 class="gallery__title">Imagen 7</h2>
+            </div> 
+            <div class="gallery_item"8>
+                <img src="/assets/ima/galeria1 (8).jpg" alt="" class="gallery__img materialboxed" data-img-mostrar="6">
+                <h2 class="gallery__title">Imagen 8</h2>
+            </div> 
+            <div class="gallery_item">
+                <img src="/assets/ima/galeria1 (9).jpg" alt="" class="gallery__img materialboxed" data-img-mostrar="7">
+                <h2 class="gallery__title">Imagen 9</h2>
+            </div>
+            <div class="gallery_item">
+                <img src="/assets/ima/galeria1 (1).jpg" alt="" class="gallery__img materialboxed" data-img-mostrar="9">
+                <h2 class="gallery__title">Imagen 1</h2>
+            </div> 
+            </section> 
+        </div>
     </div>
-    <div class="grid-container">
-        <div class="plano"><h4>Fondo plano</h4></div>
-        <div class="imagen"><h4>Fondo imagen</h4></div>
-        <div class="gradiente"><h4>Fondo gradiente</h4></div>
-    </div>
-
     
 </body>
 </html>

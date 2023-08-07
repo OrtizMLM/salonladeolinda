@@ -16,20 +16,16 @@ img{
     background-size: cover;
     
 }
-
-
-h1{
-    text-align: center;
-}
 .grid-container > div{
-    width: 45vw;
+    width: 42vw;
     height: 60vh;
     margin: 1px; 
-    padding: 0;
+    padding: 10px;
     border-radius: 20px;
     border: 2px solid beige;
+    min-height: auto;
+    min-width: auto;
     overflow: hidden;
-    
 }
 .contacto ul li{
     border-radius: 20px;
@@ -48,12 +44,18 @@ h1{
     color: #dab38e;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serifS;
+    width: 100%;
 
 }
-
-
+.ubic iframe{
+    margin-bottom: 10px;
+}
+.insta i{
+    font-size: 33px;
+}
 
 h1{
+    text-align: center;
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serifS;
     text-decoration:underline;
@@ -82,10 +84,12 @@ a{
     color: #68421e;
 }
 
+
 @media (max-width:800px) {
     .grid-container{
         margin-top: 60px;
         grid-template-columns: auto;
+
     }
     .grid-container > div{
         width: 100%;
@@ -98,7 +102,6 @@ a{
         padding: 8px;
         text-decoration: underline;
         text-align: left;
-        left: 50px;
-
     }
+
 }

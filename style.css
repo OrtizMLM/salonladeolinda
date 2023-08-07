@@ -1,7 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif; 
     background-color: beige;
-    text-align: center;
 
 }
 
@@ -23,9 +22,14 @@ nav{
     width: 100%;
     
 }
+a{
+    color: #dab38e;
+    text-shadow: 2px 2px 5px #68421e;
+}
 .navbar{
     position: sticky;
     top: 0;
+    text-align: center;
 }
 
 nav ul{
@@ -83,7 +87,6 @@ i{
         border-radius: 10px;
         float: left;    
         background-color: beige;
-        right: 50px;
         
         
     }
@@ -97,6 +100,8 @@ i{
         text-align: center;
         transition: all .5s;
     }
+
+
     nav ul li{
         display: block;
         margin: 50px 0;
@@ -113,14 +118,15 @@ i{
     #check:checked ~ ul{
         left:0;
     }
-    #check:checked ~ video{
-        display: none;
+    .navbar{
+        z-index: 100000;
     }
-
+    .intro{
+        margin-top: 50px;
+    }
 }
 
 .intro{
     text-align: center;
-
-
+    
 }
