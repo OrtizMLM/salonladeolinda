@@ -78,7 +78,22 @@ nav ul li a:hover{
 i{
     padding: 0 5px;
 }
-
+footer{
+    text-align: center;
+    background-color: #804b1b;
+    border-radius: 20px;
+    padding: 6px;
+    margin: 10px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: beige;
+    text-transform: capitalize solid;
+}
+footer a{
+    text-decoration: solid underline;
+    text-shadow: #000000 0 1px 4px;
+    color: rgb(121, 132, 233);
+    font-family: 'Courier New', Courier, monospace;
+}
 
 @media (max-width:600px){
     .checkbtn{
