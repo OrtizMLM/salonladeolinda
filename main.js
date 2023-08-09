@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         }else if (tgt == adelante){
             if (contador < imagenes.length - 1){
-                img.src = imagenes[contador + 1].img
+                img.src = imagenes[contador - 1].img
                 contador ++
             } else {
                 img.src = imagenes [0].img

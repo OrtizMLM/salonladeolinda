@@ -26,8 +26,8 @@ h1{
     text-align: center;
     background: linear-gradient(rgba(5, 7, 12, 0.4), rgba(5, 7, 12, 0.4)), url(/assets/ima/Captura.JPG) no-repeat center center ;
     overflow: hidden;
-    padding: 15px;
-    margin: 5px;
+    padding: 10px;
+    margin:0;
     justify-content: space-evenly;
     min-height: 65vh;
     border-radius: 20px;
@@ -38,19 +38,33 @@ h1{
     width: 30vw;
     float: left;
     border-radius: 20px;
-    padding: 5px;
+    padding:0;
 }
 .seg img{
     width: 30vw;
     float: right;
     border-radius: 20px;
-    padding: 5px;
-
+    padding:0;
 }
+.ter img{
+    width: 30vw;
+    float: left;
+    border-radius: 20px;
+    padding:0;
+}
+img{
+    box-shadow: #dab38e 5px 5px 12px;
+    margin: 3px;
+}
+
 p{
     font-size: 22px;
     color: beige;
     opacity: .75;
+    text-align: center;
+    padding: 1px;
+    justify-content: left;
+    text-shadow: #6d4108 5px 5px 5px;
 }
 @media (max-width:600px) {
     h1{
@@ -64,8 +78,7 @@ p{
         font-size: 18px;
     }
     .intro img{
-        width: 60vw;
-    
+        width: 50vw;
     }
     .navbar{
         z-index: 100000;
